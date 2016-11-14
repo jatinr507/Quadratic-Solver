@@ -1,1 +1,2 @@
+// Installating and setting up new project in Github
 https://guides.github.com/activities/hello-world/
