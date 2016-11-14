@@ -1,0 +1,7 @@
+// Testing
+
+1. Unit Testing
+	This will test for individual modules for Quad solver and return the appropriate output if 		everything is OK.
+
+2. Functional Testing
+	This will test the functionality of the whole application.
