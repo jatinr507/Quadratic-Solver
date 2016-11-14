@@ -1,4 +1,4 @@
-// Spike for dividing by infinity and nan
+// Spike for dividing by infinity and NAN
 #include <stdio.h>
 #include <math.h>
 
