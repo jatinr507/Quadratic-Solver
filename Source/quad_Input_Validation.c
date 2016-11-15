@@ -1,5 +1,11 @@
 #include <stdio.h>
-#include "structDec.h"
+#include "../HFiles/structDec.h"
+/*
+	quad_Input_Validation obtains input from the user, checking to see if the value is 
+	a double and then returns the 3 doubles used for the quadratic calculation
+	Input: None
+	Output:Returns 3 doubles for a,b and c.
+*/
 Inputs quad_Input_Validation(){
 	int scanFReturn = 0;
 	double a,b,c;
