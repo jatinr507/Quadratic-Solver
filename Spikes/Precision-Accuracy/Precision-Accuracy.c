@@ -1,4 +1,4 @@
-// Spike for Precision v/s Accuracy
+// Spike for Precision and Accuracy
 #include <stdio.h>
 #include <math.h>
 
