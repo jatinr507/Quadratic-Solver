@@ -1,2 +1,2 @@
-all: SquareRoot.c
-	gcc SquareRoot.c - lm
+all: SquareRoot_Spike.c
+	gcc SquareRoot_Spike.c - lm
