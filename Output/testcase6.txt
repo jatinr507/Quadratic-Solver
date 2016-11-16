@@ -1,0 +1,1 @@
+'a' cannot be zero
