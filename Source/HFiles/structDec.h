@@ -4,6 +4,7 @@
 typedef struct{
 	double x1;
 	double x2;
+	int oneRoot;
 	int valid;
 }Roots;
 typedef struct{
