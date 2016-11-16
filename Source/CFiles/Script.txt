@@ -1,9 +1,0 @@
-make
-echo Case 1
-./quad_solver < input1.txt > output1.txt
-diff output.txt outputBad1.txt
-
-make 
-echo Case 2
-./quad_solver < input2.txt > output2.txt
-diff output1.txt outputBad1.txt
