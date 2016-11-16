@@ -22,14 +22,14 @@ int main()
 	}
 	determinant = calculate_determinant(inputs.a,inputs.b,inputs.c);
 	roots = root_caclulator(determinant,inputs.a,inputs.b,inputs.c,roots);
-	if(roots.valid == 1 && roots.x2 == -1){
+	if(roots.valid == 1 && roots.oneRoot == -1){
 		printf("One root: %lf \n",roots.x1);
 	}
 	else if(roots.valid == 1){
 		printf("Two roots: %lf and %lf \n",roots.x1,roots.x2);
 	}
 	else{
-		printf("Roots were imaginary...\n");
+		printf("Roots are imaginary...\n");
 	}
     return 0;
 }   
