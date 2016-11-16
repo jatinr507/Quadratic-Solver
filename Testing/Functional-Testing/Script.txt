@@ -1,0 +1,40 @@
+(cd ../../Source/CFiles; make)
+echo Case 1
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input1.txt > ../../Output/output1.txt
+diff ../../Output/output1.txt ../../Output/testcase1.txt
+ 
+echo Case 2
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input2.txt > ../../Output/output2.txt
+diff ../../Output/output2.txt ../../Output/testcase2.txt
+
+echo Case 3
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input3.txt > ../../Output/output3.txt
+diff ../../Output/output3.txt ../../Output/testcase3.txt
+
+echo Case 4
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input4.txt > ../../Output/output4.txt
+diff ../../Output/output4.txt ../../Output/testcase4.txt
+
+echo Case 5
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input5.txt > ../../Output/output5.txt
+diff ../../Output/output5.txt ../../Output/testcase5.txt
+
+echo Case 6
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input6.txt > ../../Output/output6.txt
+diff ../../Output/output6.txt ../../Output/testcase6.txt
+
+echo Case 7
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input7.txt > ../../Output/output7.txt
+diff ../../Output/output7.txt ../../Output/testcase7.txt
+
+echo Case 8
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input8.txt > ../../Output/output8.txt
+diff ../../Output/output8.txt ../../Output/testcase8.txt
+
+echo Case 9
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input9.txt > ../../Output/output9.txt
+diff ../../Output/output9.txt ../../Output/testcase9.txt
+
+echo Case 10
+(cd ../../Source/cFiles; ./quad_solver) < ../../Input/input10.txt > ../../Output/output10.txt
+diff ../../Output/output10.txt ../../Output/testcase10.txt
