@@ -12,6 +12,7 @@
 	Outputs: Returns a root struct with all of the roots information.
 */
 Roots root_caclulator(double determinant,double a,double b,double c,Roots roots){
+	roots.oneRoot = 0;
 	if (determinant > 0)
     {
         roots.x1 = (-b+sqrt(determinant))/(2*a);
@@ -22,7 +23,7 @@ Roots root_caclulator(double determinant,double a,double b,double c,Roots roots)
     else if (determinant == 0)
     {
         roots.x1 = -b/(2*a);
-		roots.x2 = -1;
+	    roots.oneRoot = 1;
     }
     else
     {
