@@ -1,0 +1,1 @@
+Spike for dividing by infinity and NAN

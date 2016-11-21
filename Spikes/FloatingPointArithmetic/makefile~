@@ -1,0 +1,2 @@
+FloatingPointSpike:FloatingPointSpike.c
+	gcc -o FloatingPointSpike FloatingPointSpike.c -lm

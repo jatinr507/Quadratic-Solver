@@ -1,0 +1,7 @@
+// Maintainance
+
+1. Make appropriate changes in makefile as code files get added or deleted.
+
+2. Add comments when making changes.
+
+3. Ammend the file structure with changes happening.

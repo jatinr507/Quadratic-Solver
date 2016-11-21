@@ -1,0 +1,2 @@
+Enter coefficients a, b and c: 
+Enter a: Enter b: Enter c: Two roots: 2.001111 and -2.000000 

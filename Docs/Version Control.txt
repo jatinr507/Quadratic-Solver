@@ -1,0 +1,3 @@
+Version Control System: GitHub, Inc.
+Subversion URL:         https://github.com/Camtar/Quadratic-Solver
+Version .1 Created:     September 10, 2016
